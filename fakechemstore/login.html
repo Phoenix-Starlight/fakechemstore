@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fake Chemistry Store</title>
+    <link rel="icon" type="image/png" href="favicon.svg" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="css/nav.css" type="text/css" />
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        type="text/css" />
+    <script type="importmap">
+    {
+        "imports": {
+            "backendData": "./js/data.js"
+        }
+    }
+    </script>
+    <script type="module" src="js/user/login.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="shopping-cart.html">Shopping Cart 🛒︎&#xFE0E;</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="#" id="account">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form id="loginform" autocomplete="on">
+        <div>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" placeholder="Email" autocomplete="email">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" placeholder="Password" autocomplete="current-password">
+        </div>
+        <button id="submit" name="submit" type="submit">Login</button>
+    </form>
+    <p style="text-indent: 2%;"><a href="signup.html">No account? Signup!</a></p>
+</body>
+
+</html>

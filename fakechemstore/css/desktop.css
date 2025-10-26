@@ -1,0 +1,5 @@
+@media screen and (min-width: 1280px) {
+    .tile {
+        flex-basis: 200px;
+    }
+}

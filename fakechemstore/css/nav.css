@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header>nav {
+    background-color: purple;
+    padding: 1%;
+}
+
+header>nav>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header>nav>ul>li {
+    display: inline;
+    flex: 1;
+    text-align: center;
+}
+
+header * >a, footer * > a, footer > a {
+    color:white;
+}
+
+footer {
+    padding: 20px 0;
+    background: purple;
+}
+
+footer > a {
+    text-indent: 2%;
+    display: inline-block;
+}
+
+footer * > li::marker {
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+article, main {
+    flex: 1;
+}

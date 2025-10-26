@@ -1,0 +1,1 @@
+curl -v -b cookies.txt -c cookies.txt -H "Content-Type: application/json" "$@"

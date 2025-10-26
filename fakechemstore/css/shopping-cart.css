@@ -1,0 +1,33 @@
+#orders {
+    margin-top: 2%;
+}
+
+section {
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 1%;
+}
+
+section>div:last-child {
+    display: flex;
+    justify-content: inherit;
+    flex-basis: 20%;
+    align-items: inherit;
+}
+
+button {
+    border: 2px solid #9fa2a4;
+    background: linear-gradient(#fbfbfb, #d1d1d1);
+    /* gives the "gradient */
+    clip-path: rect(0 auto 100% auto);
+    /* Magic clipping of the font-size added hitbox */
+}
+
+button:active {
+    transform: scale(0.98);
+    background: rgba(211, 211, 211, 0.5);
+}

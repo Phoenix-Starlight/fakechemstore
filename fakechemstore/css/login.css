@@ -1,0 +1,33 @@
+form {
+    margin-top: 1%;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+}
+
+form * {
+    flex: 1 1;
+}
+
+input {
+    width: 0;
+    flex-shrink: 3;
+}
+
+form > div {
+    display: flex;
+    align-items: inherit;
+}
+
+label {
+    flex-grow: 0;
+}
+
+form:before, form:after {
+    content: "";
+}
+
+form > button {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
