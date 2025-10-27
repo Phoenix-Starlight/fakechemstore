@@ -16,7 +16,7 @@ def create(key: str, value) -> Response:
 
 def read(key) -> dict | None:
     if key not in db:
-        return
+        return None
     return db[key]
 
 
